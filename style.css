@@ -1,0 +1,74 @@
+body{
+    background-color: skyblue;
+    color: black;
+    font-family: 'Times New Roman', Times, bold ;
+}
+
+#sorted{
+    margin-left: 20cm;
+    margin-top: -14cm;
+}
+
+#refreshButton{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    cursor: pointer;
+    background: #000;
+    color: white;
+}
+
+#container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.generatedNumbers {
+    border: 2px solid black;
+    margin: 2px;
+    padding: 2px;
+    width: 30px;
+    text-align: center;
+    color: black;
+    bottom:0px;
+    background-color: yellow;
+}
+
+.bucketWrapper {
+    margin: 2px;
+    text-align: center;
+    display: inline-block;
+}
+
+.countingBuckets {
+    border: 2px solid black;
+    width: 30px;
+    height: 30px;
+}
+
+#sortingButton {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    cursor: pointer;
+    background: #000;
+    color: white;
+}
+
+#container3 {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 20cm;
+    position: fixed;
+}
+
+.sortedNumbers {
+    margin: 2px;
+    padding: 2px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 2px solid black;
+    color: white;
+    display: inline-block;
+}
