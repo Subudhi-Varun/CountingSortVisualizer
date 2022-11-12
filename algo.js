@@ -79,7 +79,8 @@ async function sortingAlgo() {
         bucketSelector.style.border = '5px solid black';
         numsElements[i].style.border = '5px solid black';
     }
-    console.log('sorting completed');
+    
+    alert('Counting Completed');
 
     // Output the final sorted numbers.
     var iterator = 0;
@@ -121,7 +122,9 @@ async function sortingAlgo() {
 
         // Unhighlight bucket.
         bucketElements[i].style.border = '2px solid black';
+        
     }
+    alert('Sorting Completed');
 }
 
 

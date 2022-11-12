@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Mitr&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="randomstyle.css">
+    <title>Counting sort visualizer</title>
+</head>
+<body>
+    <h1 style="font-family:'Mitr',serif ;">Counting sort visualizer</h1><br>
+    <div id="maxNumbers">
+        <h2 style="font-family:'Mitr', serif ;">Enter values for array between 0 to 15</h2>
+        <input id="numbers" type="text" placeholder="Enter only one value at a time" style="font-family:'Mitr', serif ;">
+        <button id="go" style="font-family:'Mitr', serif ;">Submit</button>
+    </div>
+    <h2 style="font-family:'Mitr', serif ;">Unsorted List</h2><br>
+    <div id="container">
+    </div><br>
+    <div id="container2" style="font-family:'Mitr', serif ;">
+        <h2 style="font-family:'Mitr', serif ;">Counting Bucket</h2><br>
+    </div>
+    <div>
+        <button id="sortingButton" style="font-family:'Mitr', serif ;">Start Sorting</button>
+        <a href="index.html">
+            <button id="refreshButton" style="font-family:'Mitr', serif ;">Back</button>
+        </a>
+    </div><br>
+    <h2 id="sorted" style="font-family:'Mitr', serif ;">Sorted List</h2><br>
+    <div id="container3" style="font-family:'Mitr', serif ;">
+    </div><br>
+    <script src="algo2.js"></script>
+</body>
+</html>

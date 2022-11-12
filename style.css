@@ -1,18 +1,29 @@
+*{
+    margin: auto;
+}
+
 body{
     background-color: skyblue;
     color: black;
-    font-family: 'Times New Roman', Times, bold ;
-}
-
-#sorted{
-    margin-left: 20cm;
-    margin-top: -14cm;
+    font-family:'Mitr', serif ;
+    text-align: center;
 }
 
 #refreshButton{
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #000;
+    color: white;
+}
+
+#randomButton{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 10px;
     cursor: pointer;
     background: #000;
     color: white;
@@ -21,6 +32,8 @@ body{
 #container {
     display: flex;
     align-items: flex-end;
+    margin-left:35%;
+    margin-right:35%
 }
 
 .generatedNumbers {
@@ -49,6 +62,7 @@ body{
 #sortingButton {
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 10px;
     padding: 5px;
     cursor: pointer;
     background: #000;
@@ -58,8 +72,8 @@ body{
 #container3 {
     display: flex;
     align-items: flex-end;
-    margin-left: 20cm;
-    position: fixed;
+    margin-left: 35%;
+    margin-right: 35%;
 }
 
 .sortedNumbers {
